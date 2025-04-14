@@ -45,3 +45,98 @@ header {
 main {
   padding-top: 107px;
 }
+
+.section-one{
+  display: flex;
+  width: 100%;
+  height: auto;
+
+}
+.section-one__main-content{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(34, 34, 34, 0.95);
+  padding-top: 150px;
+  padding-left: 162px;
+  padding-bottom: 50px;
+
+}
+.section-one__main-content__title{
+  font-family: Prata, sans-serif;
+  color: #fff;
+  font-size: 80px;
+  padding-bottom: 50px;
+
+}
+.section-one__main-content__second-title{
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 64px;
+
+}
+.section-one__main-content__list{
+  display: flex;
+  flex-direction: column;
+  gap: 37.5px;
+  font-family: Prata, sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.section-one__main-content__list-item {
+  list-style-image: url('images/li-img.png');
+  list-style-position: inside;
+}
+
+.section-one__main-content__button{
+  width: 191px;
+  height: 96px;
+  color: rgba(34, 34, 34, 0.95);
+  background-color: #fff;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+.section-one__image{
+}
+
+/* --------------------------------Second Section---------------------------------------- */
+
+.section-two{
+  width: 100%;
+  background-image: url(images/2-1.png), url(images/2-2.png);
+  background-size: 32% 100%;
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}
+.section-two__container{
+  width: 36%;
+  display: flex;
+  margin: auto;
+  background-color:rgba(34, 34, 34, 0.95);
+  display: flex;
+  flex-direction: column;
+  padding: 53px 53px 0 53px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+.section-two__container__list{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section-two__containet__list-item{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #55565A;
+  list-style-image: url('images/li2-img.png');
+  list-style-position: inside;
+}
+.section-two__container__button{
+
+}
