@@ -233,3 +233,72 @@ main {
 
 .section-three__form-image {
 }
+
+/* --------------------------------Footer---------------------------------------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 2px solid #d5c9be;
+  border-bottom: 2px solid #d5c9be;
+}
+.footer__header__list {
+  display: flex;
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  gap: 60px;
+}
+.footer__header__list-item {
+}
+.footer__main {
+  padding: 50px 160px;
+}
+.footer__main__ancors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__main__ancors__logo {
+  font-size: 36px;
+  font-family: "Prata", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400px;
+}
+.footer__main__ancors__icons {
+}
+.footer__main__ancors__button {
+  padding: 32px 52px;
+  background-color: #fff;
+  color: #222222;
+  font-size: 20px;
+  font-style: italic;
+  border-radius: 4px;
+}
+
+.footer__main__ancors__button:hover {
+  cursor: pointer;
+  background-color: #ffffffab;
+}
+
+.footer__main__privacy {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+}
+
+.footer__main__privacy__text {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #d5c9be;
+}
